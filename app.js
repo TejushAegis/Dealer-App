@@ -14,3 +14,5 @@ app.use('/', user)
 // console.log("here")
 
 app.listen(process.env.PORT)
+
+module.exports = app
